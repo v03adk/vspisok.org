@@ -1,0 +1,40 @@
+* { margin: 0; padding: 0 }
+
+p { margin: 1em 0 }
+body, input, select { font: 90% / 150% "Lucida Grande", "Lucida Sans Unicode", 
+	"Myriad Pro", sans-serif }
+body { color: black; background: white }
+a:link { color: maroon }
+a:visited { color: dimgrey }
+a:hover { color: red }
+	
+#nav { margin-bottom: 2em; padding: 3px 0.5em 0 0.5em; background: #d46 }
+#nav a, #nav span { display: inline-block; 
+	text-decoration: none; padding: 0 0.5em }
+#nav a { color: white }
+#nav span { color: maroon; background: white }
+#nav a:hover { background: #f68 }
+
+#page { margin: 0 1em; max-width: 30em }
+h1 { margin-bottom: 1em; font-size: 170%; font-weight: normal }
+
+li { margin-left: 2em }
+
+.note { font-size: 90%; color: #555 }
+input.full, textarea.full { width: 100% }
+
+table { table-layout: fixed; width: 100%; border: 1px solid #d46; 
+	border-width: 1px 0; margin: 0.5em 0 }
+address { margin-top: 1em; font-style: normal }
+
+
+#errors {
+    font-family: Monaco, Verdana, Sans-serif;
+    font-size: 12px;
+    color: red;
+}
+
+.done {
+    color: dimgrey;
+    text-decoration: line-through;
+}
